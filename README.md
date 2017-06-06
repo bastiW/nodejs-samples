@@ -90,6 +90,12 @@ You may display rich carousels (depending upon your bot's platform) that contain
         }
     ]
     
+ ## Send vertical list cards
+Facebooks vertical list template can be used by passing ``` cardType:"list" ``` in your responseJSON: 
+
+``` responseJSON.cards = "list"```
+
+    
 # Troubleshooting / FAQs
 We recommend that you test your code locally during the development process, particularly if your function is large in scope.
 
